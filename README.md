@@ -1,4 +1,4 @@
-# FS22_rotatableCamera
+# FS22_RotatableCamera
 
 This mod will allow you to enable or disable the rotation of any camera.
 
