@@ -10,7 +10,7 @@ function RotatableCamera.prerequisitesPresent(specializations)
     return true
 end
 
-function RotatableCamera:actionToggleRotation(offsetX, offsetY, offsetZ)
+function RotatableCamera:actionToggleRotation()
     if self.isClient then
         local spec = self.spec_RotatableCamera
         local cam = self.spec_enterable.activeCamera
